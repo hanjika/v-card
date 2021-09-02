@@ -120,8 +120,12 @@ figure {
 
 a {
     text-decoration: none;
-    color: #ffe5d9;
-    padding: 10px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+strong {
+    color: #fae1dd;
 }
 
 .fa {
