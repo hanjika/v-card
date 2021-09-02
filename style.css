@@ -10,7 +10,6 @@ section {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .name, .contact {
@@ -32,7 +31,6 @@ h1 {
 
 p {
     font-size: 200%;
-    padding: 0;
     margin: 0;
 }
 
@@ -85,37 +83,25 @@ p {
     z-index: -1;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.first > .top-img img {
+.first > .pattern img {
     width: 100%;
     height: auto;
 }
 
 @media (min-width: 200px) {
-    .top-img {
+    .pattern {
       transform: translate(0px, -5px);
     }
-  }
+}
 
 figure {
     margin: 0;
 }
 
-.top-img {
-    align-items: flex-start;
-}
-
-.footer > .bottom-img img {
-    width: 25%;
-    height: auto;
-}
-.bottom-img {
-    align-items: flex-end;
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 a {
@@ -126,8 +112,4 @@ a {
 
 strong {
     color: #fae1dd;
-}
-
-.fa {
-    font-size: 200%;
 }
