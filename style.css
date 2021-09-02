@@ -12,12 +12,12 @@ section {
     flex-direction: column;
 }
 
-.name, .contact {
+.info {
     align-items: flex-end;
     padding: 0 70px 20px 0;
 }
 
-.first {
+.first-part {
     background-color: white;
     z-index: -2;
 }
@@ -29,8 +29,8 @@ h1 {
     text-shadow: 2px 2px 3px #ffe5d9;
 }
 
-.name > .occupation {
-    padding-bottom: 10px;
+.info > #occupation {
+    padding-bottom: 30px;
 }
 
 p {
@@ -87,7 +87,7 @@ p {
     z-index: -1;
 }
 
-.first > .pattern img {
+.first-part > .pattern img {
     width: 100%;
     height: auto;
 }
