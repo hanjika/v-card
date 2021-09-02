@@ -1,6 +1,6 @@
 body {
     background-color: #FEC5BB;
-    color: #ffe5d9;
+    color: white;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     overflow: hidden;
@@ -15,7 +15,7 @@ section {
 
 .name, .contact {
     align-items: flex-end;
-    padding: 0 30px 20px 0;
+    padding: 0 60px 20px 0;
 }
 
 .first {
@@ -27,7 +27,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 300%;
-    color: white;
     text-shadow: 2px 2px 3px #ffe5d9;
 }
 
@@ -69,7 +68,7 @@ p {
     width: 55%;
     height: 100%;
     background-color: #FEC5BB;
-    transform: translate(85.5%, 52.5%);
+    transform: translate(85.5%, 54%);
 }
 
 .curve::after {
