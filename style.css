@@ -1,0 +1,130 @@
+body {
+    background-color: #FEC5BB;
+    color: #ffe5d9;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name, .contact {
+    align-items: flex-end;
+    padding: 0 30px 20px 0;
+}
+
+.first {
+    background-color: white;
+    z-index: -2;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 300%;
+    color: white;
+    text-shadow: 2px 2px 3px #ffe5d9;
+}
+
+p {
+    font-size: 200%;
+    padding: 0;
+    margin: 0;
+}
+
+.curve > .photo img {
+    border-radius: 50%;
+    filter: grayscale(40%);
+    width: 30%;
+    height: auto;
+}
+
+@media (min-width: 200px) {
+    .pic-self {
+      transform: translate(190px, -40px);
+    }
+}
+
+.pic-self {
+    z-index: 1;
+}
+
+.curve {
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    bottom: 0;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 45%;
+    width: 55%;
+    height: 100%;
+    background-color: #FEC5BB;
+    transform: translate(85.5%, 52.5%);
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-image: url("shapes2.png");
+    background-size: 200%;
+    background-color: white;
+    transform: translate(-9.5%, -152%);
+    z-index: -1;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first > .top-img img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 200px) {
+    .top-img {
+      transform: translate(0px, -5px);
+    }
+  }
+
+figure {
+    margin: 0;
+}
+
+.top-img {
+    align-items: flex-start;
+}
+
+.footer > .bottom-img img {
+    width: 25%;
+    height: auto;
+}
+.bottom-img {
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #ffe5d9;
+    padding: 10px;
+}
+
+.fa {
+    font-size: 200%;
+}
